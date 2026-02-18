@@ -15,22 +15,22 @@ const Footer = () => {
           <br></br>
           Phone: <a href="tel:+15555555555">(555) 555-5555</a>
         </address>
-        <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
-          <a href="#rockets" class="hover:opacity-90">
+        <nav className="hidden md:flex flex-col gap-2" aria-label="footer">
+          <a href="#rockets" className="hover:opacity-90">
             Our Rockets
           </a>
-          <a href="#testimonials" class="hover:opacity-90">
+          <a href="#testimonials" className="hover:opacity-90">
             Testimonials
           </a>
-          <a href="#contact" class="hover:opacity-90">
+          <a href="#contact" className="hover:opacity-90">
             Contact Us
           </a>
         </nav>
-        <div class="flex flex-col sm:gap-2">
-          <p class="text-right">
+        <div className="flex flex-col sm:gap-2">
+          <p className="text-right">
             Copyright &copy; <span id="year">2022</span>
           </p>
-          <p class="text-right">All Rights Reserved</p>
+          <p className="text-right">All Rights Reserved</p>
         </div>
       </section>
     </footer>

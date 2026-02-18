@@ -81,7 +81,7 @@ const Main = () => {
       </section>
       <hr className="mx-auto bg-black dark:bg-white w-1/2" />
 
-      <section id="testimonials" className="p-6 my-12 scroll-mt-20">
+      <section id="testimonials" className="p-6 my-12 scroll-mt-20 mt-100" >
         <h2 className="text-4xl text-slate-900 font-bold text-center sm:text-5xl mb-5 dark:text-white">
           Testimonials
         </h2>

@@ -9,5 +9,15 @@ html {
 }
 
 .section-height {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 68px);
 }
+
+.animate-bounce-once {
+    animation: bounce 1.9s ease 1.5;
+  }
+
+    @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
